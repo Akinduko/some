@@ -79,7 +79,7 @@ var app = ( () => {
     const url = 'https://free.currencyconverterapi.com/api/v5/currencies';
     fetch(url, {
       method: 'GET',
-      {'mode': 'no-cors'}
+      'mode': 'no-cors'
     })
     .then(validateResponse)
     .then(response => {
