@@ -19,11 +19,12 @@ limitations under the License.
 
   var filesToCache = [
     '.',
+    '/alc/'
     'main.css/',
     'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css/',
     'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js/',
     'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js/',
-    'index.html/',
+    '/alc/index.html/',
     'main.js/',
     'offline.html/',
     '404.html/',
