@@ -19,7 +19,7 @@ limitations under the License.
 
   var filesToCache = [
     '.',
-    'https://akinduko.github.io/alc/'
+    'https://akinduko.github.io/alc/',
     'style/main.css',
     'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
     'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
