@@ -27,8 +27,7 @@ limitations under the License.
     '/alc/index.html/',
     'main.js/',
     'offline.html/',
-    '404.html/',
-    'https://free.currencyconverterapi.com/api/v5/'
+    '404.html/'
   ];
 
   var staticCacheName = 'pages-cache-v2';
