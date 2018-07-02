@@ -19,14 +19,14 @@ limitations under the License.
 
   var filesToCache = [
     '.',
-    '/alc/style/main.css',
-    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
-    'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
-    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
-    '/alc/index.html',
-    '/alc/js/main.js',
-    '/alc/pages/offline.html',
-    '/alc/pages/404.html',
+    '/alc/style/main.css/',
+    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css/',
+    'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js/',
+    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js/',
+    '/alc/index.html/',
+    '/alc/js/main.js/',
+    '/alc/pages/offline.html/',
+    '/alc/pages/404.html/',
     'https://free.currencyconverterapi.com/api/v5/'
   ];
 
