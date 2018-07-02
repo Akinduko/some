@@ -67,8 +67,7 @@ var app = ( () => {
     let currency2=document.querySelector('#currency_2');
     const url = `https://free.currencyconverterapi.com/api/v5/convert?q=${currency1.value}_${currency2.value}&compact=ultra`;
     fetch(url, {
-      method: 'GET',
-      'mode': 'no-cors'
+      method: 'GET'
     })
     .then(validateResponse)
     .then(readResponseAsText)
@@ -78,8 +77,7 @@ var app = ( () => {
 
     const url = 'https://free.currencyconverterapi.com/api/v5/currencies';
     fetch(url, {
-      method: 'GET',
-      'mode': 'no-cors'
+      method: 'GET'
     })
     .then(validateResponse)
     .then(response => {
@@ -127,8 +125,7 @@ var app = ( () => {
             let toCurrency=document.querySelector('#mySelect1');
             const url = `https://free.currencyconverterapi.com/api/v5/convert?q=${fromCurrency.value}_${toCurrency.value}&compact=ultra`;
             fetch(url, {
-              method: 'GET',
-              'mode': 'no-cors'
+              method: 'GET'
             })
             .then(validateResponse)
             .then(readResponseAsJSON)
